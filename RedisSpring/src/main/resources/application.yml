@@ -17,9 +17,12 @@ spring:
     type: redis
 
 
-  redis:
-    host: localhost
-    port: 6380
+
+
+  data:
+    redis:
+      host: localhost
+      port: 6380
 
 cache:
   config:
