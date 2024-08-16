@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url : jdbc:h2:mem:testDb
+    url : jdbc:h2:file:./data/testDb
     password: sa
     username: sa
   h2:
